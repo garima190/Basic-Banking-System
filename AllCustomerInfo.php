@@ -1,8 +1,8 @@
 <?php
-    $servername = "fdb34.awardspace.net";
-    $username = "3986205_garima0579"; 
-    $password = "o:)rs2Dl0ue.Op{T"; 
-    $bname = "3986205_garima0579";  
+    $servername = "";
+    $username = ""; 
+    $password = ""; 
+    $bname = "";  
     $connect = new mysqli($servername, $username, $password, $bname); 
     if ($connect->connect_error) { 
     die("Connection failed: " . $connect->connect_error); 
